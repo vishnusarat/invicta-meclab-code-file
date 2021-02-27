@@ -49,11 +49,11 @@ void loop() {
           lcd.setCursor(13,3);
           lcd.print("INVICTA");          
 
-          kaiguan();
+          read();
           }   
 }
           
-void kaiguan()
+void read()
 {
   int temp_obj=35;
   while(temp_obj!=0)
